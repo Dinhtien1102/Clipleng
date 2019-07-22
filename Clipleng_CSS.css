@@ -23,6 +23,8 @@ header {
     padding: 8px;
     width: 100%;
     background: #fff;
+    position: sticky;
+    top: 0px;
 }
 
 .content_header{
@@ -162,14 +164,16 @@ a{
 }
 
 .navbar{
+    float: left;
     width: 100%;
     height: 80px;
     background: rgb(0, 72, 193);
-    float: left;
+    position: sticky;
+    top: 63px;
 }
 
 .container_clip{
-    max-width: 1200px;
+    max-width: 1070px;
     min-height: 100vh;
     background: rgb(255, 164, 240);
     margin: auto;
@@ -177,21 +181,41 @@ a{
 
 .top_clip{
     width: 100%;
-    height: 630px;
     display: inline-block;
 }
-.first_clip img{
+
+.first_clip .clip_1 img{
     float: left;
-    width: 633px;
-    height: 432px;
+    width: 670px;
+    height: 434px;
 }
-.clip23{
-    width: 411px;
+.title_topclip{
+    color: rgb(0, 72, 193);
+    font-size: 34px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+.icon_play img{
+    position: absolute;
+    width: 64px;
+    left: 32%;
+    top: 45%;
+    display: none;
+}
+
+.first_clip:hover .icon_play img{
+    display: block;
+}
+
+.clip23 img{
+    margin-left: 4px;
+    width: 396px;
     height: 215px;
 }
+
 footer{
     float: left;
     width: 100%;
     height: 200px;
-    background: rgb(0, 72, 193);
+    background: rgb(98, 132, 192);
 }
