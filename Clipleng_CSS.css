@@ -20,16 +20,18 @@ body{
 
 header {
     float: left;
-    padding: 8px;
     width: 100%;
     background: #fff;
     position: sticky;
     top: 0px;
+    z-index: 1000;
 }
 
 .content_header{
     width: 95%;
     margin: auto;
+    display: flow-root;
+    padding: 8px;
 }
 .logo{
     width: 180px;
@@ -167,15 +169,13 @@ a{
     float: left;
     width: 100%;
     height: 80px;
-    background: rgb(0, 72, 193);
-    position: sticky;
-    top: 63px;
+    background: rgb(0, 195, 255);
 }
 
 .container_clip{
-    max-width: 1070px;
+    max-width: 1160px;
     min-height: 100vh;
-    background: rgb(255, 164, 240);
+    background: rgb(255, 246, 160);
     margin: auto;
 }
 
@@ -184,38 +184,87 @@ a{
     display: inline-block;
 }
 
-.first_clip .clip_1 img{
-    float: left;
-    width: 670px;
-    height: 434px;
-}
 .title_topclip{
     color: rgb(0, 72, 193);
     font-size: 34px;
     letter-spacing: 2px;
     word-spacing: 2px;
 }
+
+.first_clip{
+    position: relative;
+    float: left;
+    width: 760px;
+    height: 434px;
+}
+
+.first_clip .clip_1 img{
+    position: absolute;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
 .icon_play img{
     position: absolute;
     width: 64px;
-    left: 32%;
-    top: 45%;
+    left: 45%;
+    top: 38%;
     display: none;
+    z-index: 1;
+}
+
+.opacity{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg,rgb(0, 4, 255),rgba(12, 50, 223, 0.1));
+    display: none;
+} 
+
+.box_description{
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    color: #fff;
+}
+
+.box_description h3{
+    font-size: 30px;
+    margin: 0 0 10px;
+}
+
+.box_description p{
+    font-size: 18px;
+    margin: 0;
 }
 
 .first_clip:hover .icon_play img{
     display: block;
 }
 
-.clip23 img{
+.first_clip:hover .opacity{
+    display: block;
+}
+.two_clip{
+    float: left;
+}
+.two_clip img{
     margin-left: 4px;
     width: 396px;
     height: 215px;
 }
 
+.row_clip1{
+    float: left;
+}
+.row_clip1 img {
+    width: 340px;
+    height: 200px
+}
 footer{
     float: left;
     width: 100%;
     height: 200px;
-    background: rgb(98, 132, 192);
+    background: rgb(81, 138, 236);
 }
