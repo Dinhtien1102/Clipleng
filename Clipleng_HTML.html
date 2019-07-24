@@ -25,7 +25,7 @@
                         </g>
                         </g>
                     </g>
-                </svg>  
+                </svg>
 
                 <ul class="menu_left">
                     <li class="drop_leng">
@@ -66,7 +66,11 @@
                     </ul>  
                 </div>
             </div>  
-            <div class="navbar"></div>              
+            <div class="navbar">
+                <div class="content_navbar">
+                        <input type="text" placeholder="Search.." name="search">
+                </div>
+            </div>              
         </header>
         
            
@@ -75,83 +79,169 @@
             <div class= "top_clip">
                 <h3 class="title_topclip">NỔI BẬT</h3>
 
-                <div  class="first_clip">                            
+                <div  class="first_clip style_clip">                            
                     <div class="clip_1"><img src="img_clipleng/shawn_mendes.jpg" ></div>
                     <div class="icon_play"><img src="img_clipleng/icon_play.png"></div> 
                     <div class="opacity"></div>
-                    <div class="box_description">
+                    <div class="descrip clip1_descrip">
                         <h3>Đây Là Tên Clip</h3>
                         <p>Đây là chú thích clip</p>
                     </div>
                 </div>
 
-                <div class="two_clip">
-                    <div class="clip2">
-                        <img src="img_clipleng/thankyou_next.jpg" >
+                <div class="double_clip">
+                    <div class="clip23 style_clip">
+                        <div class="two_img"><img src="img_clipleng/thankyou_next.jpg" ></div>
+                        <div class="opacity"></div>
                         <div class="icon_play"><img src="img_clipleng/icon_play.png"></div>
+                        <div class="descrip descrip_two">
+                            <h3>Đây Là Tên Clip</h3>
+                            <p>Đây là chú thích clip</p>
+                        </div>
                     </div>
-                    <div class="clip3">
-                        <img src="img_clipleng/whithout_me.jpg" >
-                        <div class="icon_play"><img src="img_clipleng/icon_play.png"></div> 
+                    <div class="clip23 clip3 style_clip">
+                        <div class="two_img"><img src="img_clipleng/thankyou_next.jpg" ></div>
+                        <div class="opacity"></div>
+                        <div class="icon_play"><img src="img_clipleng/icon_play.png"></div>
+                        <div class="descrip descrip_two">
+                            <h3>Đây Là Tên Clip</h3>
+                            <p>Đây là chú thích clip</p>
+                        </div>
                     </div>
                 </div>
             </div>
-
-             <div class="row_clip1">
-                <img src="img_clipleng/badguy.jpg">
-                <img src="img_clipleng/badguy.jpg">
-                <img src="img_clipleng/badguy.jpg">
-                <img src="img_clipleng/badguy.jpg">
-                <img src="img_clipleng/badguy.jpg">
-                <img src="img_clipleng/badguy.jpg">
+            <div class="all_clip">
+                <h3 class="title_topclip">MỚI NHẤT</h3>
+                <button onclick="slider_left('slider_1')">Left</button>
+                <button onclick="slider_right('slider_1')">Right</button>
+                <div class="slider_row">
+                    <div class="row" id="slider_1">
+                        <img src="img_clipleng/badguy.jpg">
+                        <img src="img_clipleng/badguy.jpg">
+                        <img src="img_clipleng/badguy.jpg">
+                        <img src="img_clipleng/thankyou_next.jpg">
+                        <img src="img_clipleng/thankyou_next.jpg">
+                        <img src="img_clipleng/thankyou_next.jpg">
+                    </div>
+                </div>
+                <h3 class="title_topclip">GIÁO DỤC</h3>
+                <button onclick="slider_left('slider_2')">Left</button>
+                <button onclick="slider_right('slider_2')">Right</button>
+                <div class="slider_row">
+                    <div class="row" id="slider_2">
+                        <img src="img_clipleng/badguy.jpg">
+                        <img src="img_clipleng/badguy.jpg">
+                        <img src="img_clipleng/badguy.jpg">
+                        <img src="img_clipleng/thankyou_next.jpg">
+                        <img src="img_clipleng/thankyou_next.jpg">
+                        <img src="img_clipleng/thankyou_next.jpg">
+                    </div>
+                </div>
+                <h3 class="title_topclip">PHONG CÁCH SỐNG</h3>
+                <button onclick="slider_left('slider_3')">Left</button>
+                <button onclick="slider_right('slider_3')">Right</button>
+                <div class="slider_row">
+                    <div class="row" id="slider_3">
+                        <img src="img_clipleng/badguy.jpg">
+                        <img src="img_clipleng/badguy.jpg">
+                        <img src="img_clipleng/badguy.jpg">
+                        <img src="img_clipleng/thankyou_next.jpg">
+                        <img src="img_clipleng/thankyou_next.jpg">
+                        <img src="img_clipleng/thankyou_next.jpg">
+                    </div>
+                </div>
+                <h3 class="title_topclip">CÔNG NGHỆ</h3>
+                <button onclick="slider_left('slider_4')">Left</button>
+                <button onclick="slider_right('slider_4')">Right</button>
+                <div class="slider_row">
+                    <div class="row" id="slider_4">
+                        <img src="img_clipleng/badguy.jpg">
+                        <img src="img_clipleng/badguy.jpg">
+                        <img src="img_clipleng/badguy.jpg">
+                        <img src="img_clipleng/thankyou_next.jpg">
+                        <img src="img_clipleng/thankyou_next.jpg">
+                        <img src="img_clipleng/thankyou_next.jpg">
+                    </div>
+                </div>
+                <h3 class="title_topclip">GIẢI TRÍ</h3>
+                <button onclick="slider_left('slider_5')">Left</button>
+                <button onclick="slider_right('slider_5')">Right</button>
+                <div class="slider_row">
+                    <div class="row" id="slider_5">
+                        <img src="img_clipleng/badguy.jpg">
+                        <img src="img_clipleng/badguy.jpg">
+                        <img src="img_clipleng/badguy.jpg">
+                        <img src="img_clipleng/thankyou_next.jpg">
+                        <img src="img_clipleng/thankyou_next.jpg">
+                        <img src="img_clipleng/thankyou_next.jpg">
+                    </div>
+                </div>
+                <h3 class="title_topclip">DU LỊCH KHÁM PHÁ</h3>
+                <button onclick="slider_left('slider_6')">Left</button>
+                <button onclick="slider_right('slider_6')">Right</button>
+                <div class="slider_row">
+                    <div class="row" id="slider_6">
+                        <img src="img_clipleng/badguy.jpg">
+                        <img src="img_clipleng/badguy.jpg">
+                        <img src="img_clipleng/badguy.jpg">
+                        <img src="img_clipleng/thankyou_next.jpg">
+                        <img src="img_clipleng/thankyou_next.jpg">
+                        <img src="img_clipleng/thankyou_next.jpg">
+                    </div>
+                </div>
+                <h3 class="title_topclip">LLLLALLALALllalala</h3>
+                <div class="slider_row">
+                    <div class="row">
+                        <div class="style_clip">
+                            <div class="two_img"><img src="img_clipleng/thankyou_next.jpg" width="20px" ></div>
+                            <div class="opacity"></div>
+                            <div class="icon_play"><img src="img_clipleng/icon_play.png"></div>
+                            <div class="descrip descrip_two">
+                                <h3>Đây Là Tên Clip</h3>
+                                <p>Đây là chú thích clip</p>
+                            </div>
+                        </div>
+                        <!-- <div class="style_clip">
+                            <div class="two_img"><img src="img_clipleng/thankyou_next.jpg" ></div>
+                            <div class="opacity"></div>
+                            <div class="icon_play"><img src="img_clipleng/icon_play.png"></div>
+                            <div class="descrip descrip_two">
+                                <h3>Đây Là Tên Clip</h3>
+                                <p>Đây là chú thích clip</p>
+                            </div>
+                        </div>
+                        <div class="style_clip">
+                            <div class="two_img"><img src="img_clipleng/thankyou_next.jpg" ></div>
+                            <div class="opacity"></div>
+                            <div class="icon_play"><img src="img_clipleng/icon_play.png"></div>
+                            <div class="descrip descrip_two">
+                                <h3>Đây Là Tên Clip</h3>
+                                <p>Đây là chú thích clip</p>
+                            </div>
+                        </div>
+                        <div class="style_clip">
+                            <div class="two_img"><img src="img_clipleng/thankyou_next.jpg" ></div>
+                            <div class="opacity"></div>
+                            <div class="icon_play"><img src="img_clipleng/icon_play.png"></div>
+                            <div class="descrip descrip_two">
+                                <h3>Đây Là Tên Clip</h3>
+                                <p>Đây là chú thích clip</p>
+                            </div>
+                        </div>
+                        <div class="style_clip">
+                            <div class="two_img"><img src="img_clipleng/thankyou_next.jpg" ></div>
+                            <div class="opacity"></div>
+                            <div class="icon_play"><img src="img_clipleng/icon_play.png"></div>
+                            <div class="descrip descrip_two">
+                                <h3>Đây Là Tên Clip</h3>
+                                <p>Đây là chú thích clip</p>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
             </div>
-
-           <!-- <div class="row_clip2">
-                <img src="img_clipleng/iamnother.jpg">
-                <img src="img_clipleng/iamnother.jpg">
-                <img src="img_clipleng/iamnother.jpg">
-                <img src="img_clipleng/iamnother.jpg">
-                <img src="img_clipleng/iamnother.jpg">
-                <img src="img_clipleng/iamnother.jpg">
-            </div>
-
-            <div class="row_clip3">
-                <img src="img_clipleng/littledoyouknow.jpg">
-                <img src="img_clipleng/littledoyouknow.jpg">
-                <img src="img_clipleng/littledoyouknow.jpg">
-                <img src="img_clipleng/littledoyouknow.jpg">
-                <img src="img_clipleng/littledoyouknow.jpg">
-                <img src="img_clipleng/littledoyouknow.jpg">
-            </div>
-
-            <div class="row_clip4">
-                <img src="img_clipleng/thankyou_next.jpg">
-                <img src="img_clipleng/thankyou_next.jpg">
-                <img src="img_clipleng/thankyou_next.jpg">
-                <img src="img_clipleng/thankyou_next.jpg">
-                <img src="img_clipleng/thankyou_next.jpg">
-                <img src="img_clipleng/thankyou_next.jpg">
-            </div>
-
-            <div class="row_clip5">
-                <img src="img_clipleng/whithout_me.jpg">
-                <img src="img_clipleng/whithout_me.jpg">
-                <img src="img_clipleng/whithout_me.jpg">
-                <img src="img_clipleng/whithout_me.jpg">
-                <img src="img_clipleng/whithout_me.jpg">
-                <img src="img_clipleng/whithout_me.jpg">
-            </div>
-
-            <div class="row_clip6">
-                <img src="img_clipleng/shawn_mendes.jpg">
-                <img src="img_clipleng/shawn_mendes.jpg">
-                <img src="img_clipleng/shawn_mendes.jpg">
-                <img src="img_clipleng/shawn_mendes.jpg">
-                <img src="img_clipleng/shawn_mendes.jpg">
-                <img src="img_clipleng/shawn_mendes.jpg">
-            </div>
-     -->
         </div>
         <footer></footer>
+        <script src="Clipleng_JS.js"></script>
     </body>
 </html>
