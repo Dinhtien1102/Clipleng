@@ -255,12 +255,19 @@ a{
     height: 215px;
 }
 
-.row_clip1{
+.slider_row{
+    overflow: hidden;
+}
+
+.row_clip1 {
+    position: relative;
     float: left;
+    width: 2400px;
 }
 .row_clip1 img {
-    width: 340px;
-    height: 200px
+    width: 360px;
+    height: 220px;
+    margin-right: 36px;
 }
 footer{
     float: left;
