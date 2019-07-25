@@ -201,7 +201,10 @@ a {
     letter-spacing: 2px;
     word-spacing: 2px;
 }
-
+.style_clip {
+    overflow: hidden;
+    border-radius: 10px;
+}
 .first_clip {
     position: relative;
     float: left;
@@ -216,31 +219,24 @@ a {
     height: 100%;
 }
 
-.icon_play img {
-    position: absolute;
-    width: 80px;
-    height: 90px;
-    left: 45%;
-    top: 31%;
-    display: none;
-    z-index: 2;
+.double_clip {
+    float: left;
+    margin-left: 5px;
+} 
+
+.clip23 {
+    position: relative;
+    width: 380px;
+    height: 217px;
 }
-.clip1_descrip {
+
+.first_clip .descrip {
     position: absolute;
     top: 83%;
     left: 35%;
     color: #fff;
 }
 
-.double_clip {
-    float: left;
-    margin-left: 5px;
-}
-.clip23 {
-    position: relative;
-    width: 380px;
-    height: 217px;
-}
 .clip3 {
     margin-top: 4px;
 }
@@ -258,7 +254,24 @@ a {
     z-index: 1;
 } 
 
-.descrip_two {
+.first_clip .icon_play img {
+    width: 125px;
+    height: 140px;
+    left: 45%;
+    top: 31%;
+} 
+
+.icon_play img {
+    position: absolute;
+    width: 80px;
+    height: 90px;
+    left: 42%;
+    top: 26%;
+    display: none;
+    z-index: 2;
+}
+
+.clip23 .descrip{
     position: absolute;
     top: 69%;
     left: 30%;
@@ -280,13 +293,6 @@ a {
     display: block;
 }
 
-
-
-
-
-
-
-
 .slider_row{
     overflow: hidden;
 }
@@ -296,12 +302,11 @@ a {
     width: 2400px;
     transition: 1s;
 }
-.row img {
-    width: 380px;
-    height: 217px;
-    margin-right: 10px;
+.row_clip{
     float: left; 
+    margin-right:10px;
 }
+
 footer{
     float: left;
     width: 100%;
