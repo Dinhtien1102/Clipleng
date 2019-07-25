@@ -1,18 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2879.083" height="670" viewBox="0 0 2879.083 670">
-  <defs>
-    <linearGradient id="linear-gradient" x1="0.099" y1="0.207" x2="0.9" y2="0.814" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#008ae6"/>
-      <stop offset="1" stop-color="#003fbc"/>
-    </linearGradient>
-  </defs>
-  <g id="Group_3" data-name="Group 3" transform="translate(-1704.917 -264)">
-    <text id="Clipleng" transform="translate(2470 791)" fill="#0048c1" font-size="616" font-family="TwCenMT-Bold, Tw Cen MT" font-weight="700"><tspan x="0" y="0">Clipleng</tspan></text>
-    <g id="Group_2" data-name="Group 2" transform="translate(22 -87)">
-      <rect id="Rectangle_1" data-name="Rectangle 1" width="753" height="501" rx="250.5" transform="translate(1682.917 418.817)" fill="url(#linear-gradient)"/>
-      <g id="Polygon_2" data-name="Polygon 2" transform="matrix(0, 1, -1, 0, 2198.977, 517.427)" fill="#fff">
-        <path d="M 302.9697875976563 192.5 L 1.030220150947571 192.5 L 152 0.8081085681915283 L 302.9697875976563 192.5 Z" stroke="none"/>
-        <path d="M 152 1.616256713867188 L 2.06048583984375 192 L 301.9395141601563 192 L 152 1.616256713867188 M 152 0 L 304 193 L 0 193 L 152 0 Z" stroke="none" fill="#707070"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="2114" height="670" viewBox="0 0 2114 670">
+  <g id="Group_5" data-name="Group 5" transform="translate(-1868 718)">
+    <g id="Group_4" data-name="Group 4" transform="translate(-33 -46)">
+      <g id="Group_3" data-name="Group 3" transform="translate(-569 -936)">
+        <text id="Clipleng" transform="translate(2470 791)" fill="#000a3c" font-size="616" font-family="TwCenMT-Bold, Tw Cen MT" font-weight="700"><tspan x="0" y="0">Clipleng</tspan></text>
       </g>
+      <path id="Path_1" data-name="Path 1" d="M83.552,0,167.1,116.4H0Z" transform="translate(2242.679 -422.663) rotate(88)" fill="#000a3c"/>
     </g>
   </g>
 </svg>
