@@ -185,7 +185,7 @@ a {
 }
 .container_clip {
     max-width: 1160px;
-    min-height: 100vh;
+    min-height: 95vh;
     background: rgb(255, 246, 160);
     margin: auto;
 }
